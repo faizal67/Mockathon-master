@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambay;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#cad9ec;
+  }
+  
+.nav li {
+    float: left;
+  }
+  
+ .nav li a {
+    display: block;
+    color: #5595e8;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    text-decoration: none;
+  }
+
+  .nav{
+    position:sticky;
+
+  }
+  .content1 ul{
+    display: flex;
+  }
+
+  .content1 ul li{
+    list-style-type: none;
+    margin: auto;
+    font-family: Cambay;
+    font-size: medium;
+    color: #5595e8;
+  }
+
+  h1{
+    font-family: Cambay;
+    padding-top: 2rem;
+    text-align: center;
+    color: #5595e8;
+    font-size: 4rem;
+  }
+  p {text-align: center;}
+
+  .content1 {
+    height: 32rem;
+  }
+
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get your Score | Home</title>
+    <link rel="stylesheet" href="teamform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <script src=" js/script.js">
+    </script>
+    <div class="nav">
+        <img src="/Images/logo.jpg" alt="" id="logo">
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li class="sign"> <a href="#">log in</a></li>
+
+        </ul>
+
+
+    </div>
+    <div class="container">
+        <h1>Enter your idea</h1>
+        <p>Ideas are nothing until executed. We have a community of builders who can turn your ideas into real-world
+            products</p>
+        <div class="bgimage">
+            <img src="/Images/wrench.png" alt="wrench picture" id="img1">
+            <img src="/Images/idea.png" alt="" id="img2">
+
+        </div>
+        <div elevation="1" class="formcontainer">
+            <form>
+                <div style="position:relative" >
+                    <div style="width:100%">
+                        <label for="name" >Theme</label>
+                        <input type="text" id="name" name="name"
+                            required="" value=""
+                            class="inputarea">
+                    </div>
+                </div>
+
+
+
+                <div style="position:relative" >
+                    <div style="width:100%">
+                        <label for="source" >Idea</label>
+                        <textarea cols="55" name="commentText" rows="5" required minlength="50"  ></textarea >
+                        </div>
+                </div>
+
+                <div class="techstack">
+                    <label >Technology Used:</label>  <br>         
+                        <input type="checkbox" name="" />
+                        <label class="check">ML/AI</label>
+                        <input type="checkbox" name="" style="margin-left: 2rem;">
+                        <label  class="check" >Data Science</label><br>
+                        <input type="checkbox" name="">
+                        <label class="check">Iot</label>
+                        <input type="checkbox" name="" style="margin-left: 2.8rem;">
+                        <label class="check">AR/VR</label> <br>
+                        <input type="checkbox" name="">
+                        <label class="check">DevOps</label>
+                        <input type="checkbox" name="" style="margin-left: 0.8rem;">
+                        <label class="check" >Web3</label><br>
+                        <input type="checkbox" name="">
+                        <label class="check">Android</label>
+                        <input type="checkbox" name="" style="margin-left: 0.4rem;">
+                        <label class="check">BlockChain</label> <br>
+                        <input type="checkbox" name="">
+                        <label class="check">CyberSecurity</label><br>
+                </div>
+
+
+                <button type="submit" style="margin-top:24px" class="dOFwcF" >Submit Idea</button>
+            </form>
+        </div>
+    </div>
+</body>
